@@ -1,0 +1,138 @@
+.header {
+  position: fixed;
+  box-shadow: 0 4px 5px var(--primary-color) ;
+  background-color:white;
+  left:0;
+  top: 0;
+  width: 100%;
+  
+}
+.navegador{
+  display: flex;
+  justify-content:flex-end;
+  max-width: 980px;
+  margin: auto 10px;
+  
+  
+}
+
+
+.lista{
+ 
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  background-color: var(--menu-mobile-background-color);
+  overflow-y: auto;
+  opacity: 0;
+  pointer-events: none;
+}
+.menu_opened{
+  opacity: 1;
+  pointer-events:all;
+}
+.lista-item{
+  
+  padding: 0 ;
+  list-style: none;
+
+}
+.lista-intem-link{
+  color:var(--text-color-irverse);
+  font: size 18px;
+  font-weight: 500;
+  line-height: 60px;
+  text-transform: uppercase;
+
+}
+.lista-intem-link:hover{
+  color: black;
+}
+
+
+.cerrar-menu,
+.abrir-menu{
+ 
+  border:none;
+  background:none;
+  cursor:pointer;
+
+}
+.cerrar-menu{
+  align-self: flex-end;
+  padding: 0px 10px;
+}
+
+
+.icon{
+  width: 15px;
+  height: 20px;
+ 
+}
+
+@media(min-width: 768px)
+{
+  .abrir-menu,
+  .cerrar-menu{
+  display: none;
+}
+  .header {
+    position: fixed;
+    box-shadow: 0 4px 5px var(--primary-color) ;
+    background-color:white;
+    left:0;
+    top: 0;
+    width: 100%;
+    
+  }
+  .navegador{
+    display: flex;
+    justify-content:center;
+    max-width: 980px;
+    margin:0 auto;
+    
+    
+  }
+  .lista{
+    
+    flex-direction:row;
+    position:static;
+    left: 0;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    background-color: white;
+    pointer-events: all;
+    opacity: 1;
+    
+  }
+  .lista-item{
+    
+    padding: 0 15px;
+    list-style: none;
+  }
+  .lista-intem-link{
+    color:var(--text-color);
+    font: size 18px;
+    font-weight: 500;
+    line-height: 50px;
+    margin:0 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  
+  }
+  .lista-intem-link{
+    padding:8px;
+    border-radius: 3px;
+  }
+  .lista-intem-link:hover{
+    background-color:#092df7;
+    
+  }
+
+}

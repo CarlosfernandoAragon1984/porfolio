@@ -1,0 +1,21 @@
+:root{
+  --theme-color:white;
+  --primary-color:#124f88;
+  --secundary-color:#F7C331;
+  --text-color-irverse:white;
+  --text-color: black;
+  --navbar-shallw-color:#e5e5e5;
+  --menu-mobile-background-color:#3A4460;
+}
+section[id]{
+  scroll-margin-top: 80px;
+}
+body{
+  font-family: 'montserrat',sans-serif;
+  color:var(--text-color);
+  padding-top: 70px;
+}
+a{
+  text-decoration: none;
+  color:var(--text-color);
+}

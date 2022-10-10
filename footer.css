@@ -1,0 +1,44 @@
+.contacto{
+  background-color: rgba(0, 0, 0, 0.322);;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  list-style: none;
+  height: 50px;
+  padding-top: 10px;
+}
+.contcto-titulo{
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30px;
+}
+.logo-pie{
+  width: 30px;
+  height: 28px;
+}
+.logo-pie-github{
+  width: 45px;
+  height: 30px;
+}
+
+@media (min-width: 768px){
+  .contacto{
+    background-color: rgba(0, 0, 0, 0.322);;
+    height: 110px;
+    padding-top: 10px;
+  }
+  .logo-pie{
+    width: 90px;
+    height: 90px;
+    
+  }
+  .logo-pie-github{
+    width: 150px;
+    height: 100px;
+  }
+
+}

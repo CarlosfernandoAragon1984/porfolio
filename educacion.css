@@ -1,0 +1,64 @@
+.educacion{
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 0px;
+  
+
+}
+.educ-titulo{
+  
+  height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  padding-top: 5px;
+}
+.item-educ{
+  margin-top: 30px;
+  
+}
+.item-educ-titulo{
+  font-size: 20px;
+  font-weight: bold;
+ 
+  text-align: center;
+  margin-top: 30px;
+}
+.item-educ-parrafo{
+  font-size: 18px;
+  font-weight: 500;
+  max-width: 450px;
+  margin: 0 auto;
+  line-height: 1.3;
+  /* margin-top: 30px; */
+}
+.logo-uba{
+  width: 50px;
+  height: 50px;
+}
+.logo-fce{
+  width: 50px;
+  height: 50px;
+}
+.item-educ-logo{
+  width: 50px;
+  height: 50px;
+}
+@media (min-width: 768px){
+  .educacion{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgba(0, 0, 0, 0.322);
+    text-align: center;
+    padding-top: 50px;
+  
+  }
+  .educ-titulo{
+    background-color: rgba(0, 0, 0, 0.322);
+   
+  }
+
+}
